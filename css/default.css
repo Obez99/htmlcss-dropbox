@@ -32,6 +32,16 @@ h5{
   font-size: 16px;
 }
 
+ul{
+  list-style: none;
+}
+
 .small-text{
   font-size: 14px;
+}
+
+.blue-btn{
+  background-color: #0061FF;
+  color: white;
+
 }

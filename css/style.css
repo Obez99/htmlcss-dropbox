@@ -1,0 +1,32 @@
+nav{
+  padding: 20px;
+  background-color: white;
+  width:100%;
+  position:fixed;
+}
+
+nav a{
+  text-decoration: none;
+  color:black;
+  padding: 7px 20px;
+  vertical-align: middle;
+}
+
+nav ul,li{
+  display: inline-block;
+  padding: 0 20px;
+}
+
+nav div{
+  display:inline-block;
+  width: 49%;
+}
+
+nav div:nth-child(2){
+  text-align: end;
+}
+
+header{
+  background-color:red;
+  height:1000px;
+}
