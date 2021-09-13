@@ -80,6 +80,10 @@ header{
   margin: 0 60px;
 }
 
+.business-plan-container.col-9-9{
+  margin-top: 60px;
+}
+
 
 /*Classes*/
 /************************************/
@@ -123,5 +127,6 @@ header{
 
 .business-plan-body{
   padding: 40px 40px;
+ 
 }
 
