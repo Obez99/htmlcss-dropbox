@@ -4,6 +4,7 @@ nav{
   width:100%;
   position:fixed;
   z-index: 1;
+  box-shadow: 5px 5px 10px gray;
 }
 
 nav a{
@@ -36,9 +37,56 @@ header{
 
 }
 
+.row input{
+  margin-bottom: 30px;
+}
+
+.row label{
+  margin-right: 20px;
+}
+
+.business-plan-body h3{
+  padding-bottom: 16px;
+}
+
+.business-plan-body h4{
+  padding-bottom: 8px;
+}
+
+.business-plan-body span:first-of-type{
+  color: gray;
+}
+
+.business-plan-body ul{
+  padding: 50px 0;
+}
+
+.business-plan-body li{
+  padding: 12px 0;
+}
+
+.business-plan-body span:nth-of-type(2){
+  display: inline-block;
+  margin: 30px 0;
+}
+
+.business-plan-body hr{
+  color:gray;
+  width: 50px;
+  margin-bottom: 50px;
+}
+
+.business-plan-container:nth-of-type(2){
+  margin: 0 60px;
+}
+
+
+/*Classes*/
+/************************************/
 .header{
   padding-top: 150px;
   position: relative;
+  font-weight: bold;
 }
 
 .header-text{
@@ -50,7 +98,30 @@ header{
   padding: 30px 0;
 }
 
+.fa-check{
+  color: #0061FF;
+  padding-right: 5px;
+}
+
 .header-img{
   position: absolute;
   right:0;
 }
+
+.business-plan-container{
+  border: 1px solid gray;
+}
+
+.business-plan-header{
+  border-bottom: 1px solid gray;
+}
+
+.business-plan-header{
+  text-align: center;
+  padding: 10px;
+}
+
+.business-plan-body{
+  padding: 40px 40px;
+}
+

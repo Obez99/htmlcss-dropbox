@@ -28,6 +28,7 @@ h1{
 
 h2{
   font-size: 40px;
+  padding-bottom: 40px;
 }
 
 h3{
@@ -50,6 +51,10 @@ i{
   color: black;
 }
 
+main{
+  padding-top:200px;
+}
+
 
 /*Column width*/
 /************************************/
@@ -62,7 +67,7 @@ i{
 }
 
 .col-3-9{
-  width: calc(100% / 9 * 3);
+  width: calc(100% / 9 * 3 - 60px);
 }
 
 .col-4-9{
@@ -92,5 +97,10 @@ i{
 
 .large-row{
   width: 1600px;
+  margin: auto;
+}
+
+.row{
+  width: 1300px;
   margin: auto;
 }
