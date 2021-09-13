@@ -8,6 +8,16 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
+[class*="col"]{
+  float:left;
+}
+
+[class*="row"]:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 p{
   font-size: 16px;
 }
@@ -36,12 +46,51 @@ ul{
   list-style: none;
 }
 
+i{
+  color: black;
+}
+
+
+/*Column width*/
+/************************************/
+.col-1-9{
+  width: calc(100% / 9);
+}
+
+.col-2-9{
+  width: calc(100% / 9 * 2);
+}
+
+.col-3-9{
+  width: calc(100% / 9 * 3);
+}
+
+.col-4-9{
+  width: calc(100% / 9 * 4);
+}
+
+.col-6-9{
+  width: calc(100% / 9 * 6);
+}
+/************************************/
+
 .small-text{
   font-size: 14px;
+  padding: 20px 0;
 }
 
 .blue-btn{
   background-color: #0061FF;
   color: white;
+  text-decoration: none;
+  padding: 7px 20px;
+}
 
+.cyan-section{
+  background-color:#B4D0E7;
+}
+
+.large-row{
+  width: 1600px;
+  margin: auto;
 }

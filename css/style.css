@@ -3,6 +3,7 @@ nav{
   background-color: white;
   width:100%;
   position:fixed;
+  z-index: 1;
 }
 
 nav a{
@@ -27,6 +28,29 @@ nav div:nth-child(2){
 }
 
 header{
-  background-color:red;
-  height:1000px;
+  min-height: 850px;
+}
+
+.header img{
+  width: 100%;
+
+}
+
+.header{
+  padding-top: 150px;
+  position: relative;
+}
+
+.header-text{
+  padding:40px 0;
+}
+
+.fa-arrow-down{
+  font-size: 50px;
+  padding: 30px 0;
+}
+
+.header-img{
+  position: absolute;
+  right:0;
 }
