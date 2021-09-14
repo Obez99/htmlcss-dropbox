@@ -188,3 +188,16 @@ header{
   padding: 40px;
 }
 
+.teams-grid{
+  background-color: aqua;
+  width: 30%;
+  height: 300px;
+  display: inline-block;
+}
+
+.teams-textbox{
+  background-color: red;
+  width: 40%;
+  height: 300px;
+  display: inline-block;
+}
