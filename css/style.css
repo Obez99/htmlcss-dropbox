@@ -21,7 +21,7 @@ nav ul,li{
 
 nav div{
   display:inline-block;
-  width: 49%;
+  width: 50%;
 }
 
 nav div:nth-child(2){
