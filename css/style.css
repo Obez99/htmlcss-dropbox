@@ -63,6 +63,11 @@ header{
 
 .business-plan-body li{
   padding: 12px 0;
+  padding-left: 22px;
+}
+
+.business-plan-body i[class*="fa-"]{
+  margin-left: -22px;
 }
 
 .business-plan-body span:nth-of-type(2){
