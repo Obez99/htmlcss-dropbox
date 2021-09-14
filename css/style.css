@@ -144,6 +144,22 @@ header{
   clear: both;
 }
 
+.dropbox-business-trial h2{
+  padding: 100px 0;
+  color:#7f3753;
+}
+
+.dropbox-business-trial a{
+  background-color: white;
+  text-decoration: none;
+  color:black;
+  padding: 10px 50px;
+}
+
+.dropbox-business-trial div.col-5-9{
+  text-align: end;
+  padding-top: 120px;
+}
 
 
 /*Classes*/
