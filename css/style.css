@@ -75,12 +75,6 @@ header{
   margin: 30px 0;
 }
 
-.business-plan-body hr{
-  color:gray;
-  width: 50px;
-  margin-bottom: 50px;
-}
-
 .business-plan-container.col-3-9{
   padding-left: 40px;
   padding-right: 40px;
@@ -131,6 +125,20 @@ header{
   margin-top: 20px;
 }
 
+.team img{
+  width: 120px;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: invert(100%);
+}
+
+.teams-textbox p{
+  padding-bottom: 50px;
+}
+
+
 
 /*Classes*/
 /************************************/
@@ -166,7 +174,6 @@ header{
 
 .business-plan-content{
   border:1px solid gray;
-  
 }
 
 .business-plan-header{
@@ -177,7 +184,6 @@ header{
 
 .business-plan-body{
   padding: 40px 40px;
- 
 }
 
 .operation-container{
@@ -188,16 +194,58 @@ header{
   padding: 40px;
 }
 
-.teams-grid{
-  background-color: aqua;
-  width: 30%;
-  height: 300px;
-  display: inline-block;
+.teams-container{
+  padding-top: 50px;
 }
 
 .teams-textbox{
-  background-color: red;
-  width: 40%;
-  height: 300px;
-  display: inline-block;
+  height: calc(100vw / 9 * 2 - 4px);
+  background-color: #f7f7f7;
+  padding:60px;
+  overflow: auto;
+}
+
+.team{
+  width: 50%;
+  height: calc(100vw / 9 - 2px);
+  float: left;
+  position: relative;
+}
+
+.designit{
+  background-color: #abd7a5;
+  border: 10px solid #d5ebd2;
+}
+
+.arizona-state-university{
+  background-color: #7f3753;
+}
+
+.university-of-florida{
+  background-color: #199ed3;
+}
+
+.topps{
+  background-color: #ff4747;
+}
+
+.world-bicycle-relief{
+  background-color: #dd3049;
+}
+
+.hearst-corp{
+  background-color: #bcd5e9;
+}
+
+.lonely-planet{
+  background-color: #3b4e99;
+}
+
+.clear-channel{
+  background-color: #ffdc45;
+}
+
+.teams-textbox img{
+  width:150px;
+  padding-bottom: 30px;
 }

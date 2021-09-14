@@ -52,6 +52,11 @@ i{
   color: black;
 }
 
+hr{
+  color:gray;
+  width: 50px;
+  margin-bottom: 50px;
+}
 
 /*Column width*/
 /************************************/
