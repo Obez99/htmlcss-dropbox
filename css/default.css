@@ -67,7 +67,7 @@ main{
 }
 
 .col-3-9{
-  width: calc(100% / 9 * 3 - 60px);
+  width: calc(100% / 9 * 3);
 }
 
 .col-4-9{
