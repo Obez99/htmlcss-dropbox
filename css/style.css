@@ -80,6 +80,10 @@ header{
   margin: 0 90px;
 }
 
+.business-plan-container.col-3-9{
+  min-height: 1300px;
+}
+
 .business-plan-container.col-9-9{
   margin: 80px 0 150px;
   position:relative;
