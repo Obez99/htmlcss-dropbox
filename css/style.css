@@ -138,6 +138,12 @@ header{
   padding-bottom: 50px;
 }
 
+.teams-container:after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
 
 
 /*Classes*/
@@ -196,6 +202,7 @@ header{
 
 .teams-container{
   padding-top: 50px;
+
 }
 
 .teams-textbox{
