@@ -81,7 +81,7 @@ header{
 }
 
 .business-plan-container.col-9-9{
-  margin: 80px 0 180px;
+  margin: 80px 0 150px;
   position:relative;
 }
 
@@ -92,6 +92,20 @@ header{
   text-align: center;
 }
 
+.partner-text-section{
+  padding:40px;
+}
+
+.partner-text-section a{
+  text-decoration: none;
+  border:1px solid;
+  color:black;
+  padding:10px 15px;
+}
+
+.partner-text-section p{
+  padding-bottom: 30px;
+}
 
 
 /*Classes*/
