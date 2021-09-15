@@ -209,6 +209,7 @@ header{
   border-bottom: 1px solid lightgray;
   overflow: hidden;
   transition: max-height 0.7s;
+  cursor: pointer;
 }
 
 .faq-container li:nth-of-type(1){
