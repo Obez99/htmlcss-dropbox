@@ -1,3 +1,5 @@
+/*Selectors*/
+/******************************/
 nav{
   padding: 20px;
   background-color: white;
@@ -48,6 +50,32 @@ header{
 
 .row label{
   margin-right: 20px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.radio-container{
+  display: block;
+  position: relative;
+  padding-left: 30px;
+}
+
+.radio-container input{
+  position:absolute;
+  opacity: 0;
+  cursor:pointer;
+  height: 0;
+  width: 0;
+}
+
+.radio-container span.radio-check{
+  position:absolute;
+  top:0;
+  left:0;
+  height: 25px;
+  width: 25px;
+  background-color: #0061FF;
+  border-radius: 50%;
 }
 
 .business-plan-body h3{
@@ -232,6 +260,9 @@ footer a{
   font-size: 13px;
 }
 
+/******************************/
+
+
 /*Classes*/
 /************************************/
 .header{
@@ -360,3 +391,5 @@ footer a{
 .language-menu{
   padding-bottom: 100px;
 }
+
+/*************************************/

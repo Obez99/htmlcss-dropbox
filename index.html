@@ -64,14 +64,19 @@
     <main>
       <section>
         <!--Business plan header-->
-        <div class="row clearfix">
+        <div class="row">
           <h2>Trova il piano Dropbox Business che fa per te</h2>
-          <input type="radio" name="plan" checked>
-            <label>Fatturazione mensile</label>
-          <input type="radio" name="plan">
-            <label>Fatturazione annuale</label>
-        </div>
 
+          <label class="radio-container">Fatturazione mensile
+          <input type="radio" name="plan-selection" checked>
+          <span class="radio-check"></span>
+          </label>
+
+          <label class="radio-container">Fatturazione annuale
+            <input type="radio" name="plan-selection">
+            <span class="radio-check"></span>
+          </label>
+        </div>
         <!--Business plan content-->
         <div class="row clearfix">
           <div class="responsive-fix">

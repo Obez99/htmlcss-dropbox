@@ -51,3 +51,31 @@ footer a:hover{
     padding-top: 50px;
   }
 }
+
+.radio-container:hover input ~ .radio-check{
+  background-color: #72a0eb;
+}
+
+.radio-container input:checked ~ .radio-check{
+  background-color: #0061FF;
+}
+
+.radio-check:after{
+  content:"";
+  position:absolute;
+  display:none;
+}
+
+.radio-container input:checked ~ .radio-check:after{
+  display:block;
+}
+
+.radio-container .radio-check:after{
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  border-radius: 50%;
+}
