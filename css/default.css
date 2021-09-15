@@ -54,8 +54,12 @@ i{
 
 hr{
   color:gray;
-  width: 50px;
+  width: 20%;
   margin-bottom: 50px;
+}
+
+footer{
+  background-color: black;
 }
 
 /*Column width*/

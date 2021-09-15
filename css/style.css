@@ -207,6 +207,29 @@ header{
   transition: transform 0.7s;
 }
 
+.footer-list :first-child{
+  padding-bottom: 20px;
+}
+
+.footer-list li{
+  padding-bottom: 10px;
+  color:white;
+}
+
+
+footer a{
+  text-decoration: none;
+  color:white;
+}
+
+.language-menu i, span{
+  color:gray;
+}
+
+.language-menu i:last-child{
+  font-size: 13px;
+}
+
 /*Classes*/
 /************************************/
 .header{
@@ -316,4 +339,18 @@ header{
 .teams-textbox img{
   width:150px;
   padding-bottom: 30px;
+}
+
+.faq-container{
+  margin-bottom:150px;
+}
+
+.footer-list{
+  float:left;
+  padding: 120px 0;
+  padding-right: 100px;
+}
+
+.language-menu{
+  padding-bottom: 100px;
 }
