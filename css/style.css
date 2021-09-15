@@ -113,8 +113,10 @@ header{
 .partner-text-section a{
   text-decoration: none;
   border:1px solid;
+  background-color: white;
   color:black;
   padding:10px 15px;
+  transition: color 1s, background-color 0.5s;
 }
 
 .partner-text-section p{
@@ -159,6 +161,7 @@ header{
   text-decoration: none;
   color:black;
   padding: 10px 50px;
+  transition: color 1s, background-color 0.5s;
 }
 
 .dropbox-business-trial div.col-5-9{
