@@ -227,7 +227,7 @@ header{
 
 }
 
-.faq-container h4>div{
+.faq-content h4{
   margin-right: 80px;
 }
 
@@ -381,6 +381,10 @@ footer a{
 
 .faq-container{
   margin-bottom:150px;
+}
+
+.faq-content{
+  position:relative;
 }
 
 .footer-list{

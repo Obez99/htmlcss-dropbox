@@ -12,7 +12,7 @@
   box-shadow: 10px 5px 10px gray;
 }
 
-nav a:not(a.blue-btn):hover{
+nav a:not(.blue-btn):hover{
   text-decoration: underline;
 }
 
