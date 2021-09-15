@@ -11,3 +11,7 @@
   background-color: white;
   box-shadow: 10px 5px 10px gray;
 }
+
+nav a:not(a.blue-btn):hover{
+  text-decoration: underline;
+}
