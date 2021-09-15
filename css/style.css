@@ -180,7 +180,7 @@ header{
   min-height: 0;
   border-bottom: 1px solid lightgray;
   overflow: hidden;
-  transition: max-height 0.5s;
+  transition: max-height 0.7s;
 }
 
 .faq-container li:nth-of-type(1){
