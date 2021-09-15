@@ -101,6 +101,8 @@ footer{
   color: white;
   text-decoration: none;
   padding: 7px 20px;
+  box-shadow: 0;
+  transition: background-color 0.5s, color 0.5s, box-shadow 0.5s;
 }
 
 .cyan-section{

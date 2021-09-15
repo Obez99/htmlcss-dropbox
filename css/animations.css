@@ -5,3 +5,9 @@
 .faq-container li:focus .fa-chevron-down{
   transform: rotateZ(180deg);
 }
+
+.blue-btn:hover{
+  color:#0061FF;
+  background-color: white;
+  box-shadow: 10px 5px 10px gray;
+}
