@@ -14,7 +14,12 @@ nav a{
   vertical-align: middle;
 }
 
-nav ul,li{
+nav ul{
+  display: inline-block;
+  padding: 0 20px;
+}
+
+nav li{
   display: inline-block;
   padding: 0 20px;
 }
@@ -145,7 +150,7 @@ header{
 }
 
 .dropbox-business-trial h2{
-  padding: 100px 0;
+  padding: 140px 0;
   color:#7f3753;
 }
 
@@ -158,9 +163,49 @@ header{
 
 .dropbox-business-trial div.col-5-9{
   text-align: end;
-  padding-top: 120px;
+  padding-top: 140px;
 }
 
+.faq-container h3{
+  margin-top: 100px;
+  padding-bottom: 30px;
+}
+
+.faq-container li{
+  padding: 20px 0;
+  max-height: 70px;
+  min-height: 0;
+  border-bottom: 1px solid lightgray;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+
+.faq-container li:nth-of-type(1){
+  border-top: 1px solid lightgray;
+}
+
+.faq-container h4{
+  position: relative;
+  padding-bottom:30px;
+
+}
+
+.faq-container p{
+  padding-top: 30px;
+
+}
+
+.faq-container h4>div{
+  margin-right: 80px;
+}
+
+.faq-container .fa-chevron-down{
+  position: absolute;
+  right:30px;
+  top:0;
+  transform:rotateZ(0deg);
+  transition: transform 0.7s;
+}
 
 /*Classes*/
 /************************************/

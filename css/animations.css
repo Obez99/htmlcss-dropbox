@@ -1,0 +1,7 @@
+.faq-container li:focus{
+  max-height:500px;
+}
+
+.faq-container li:focus .fa-chevron-down{
+  transform: rotateZ(180deg);
+}
