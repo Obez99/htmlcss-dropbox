@@ -12,12 +12,6 @@ body{
   float:left;
 }
 
-[class*="row"]:after{
-  content: "";
-  display: table;
-  clear: both;
-}
-
 p{
   font-size: 16px;
 }
@@ -121,4 +115,11 @@ footer{
 .row{
   width: 1300px;
   margin: auto;
+}
+
+
+.clearfix:after{
+  content:"";
+  display: table;
+  clear:both;
 }
