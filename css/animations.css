@@ -41,3 +41,13 @@ footer a:hover{
 #team-link:hover{
   text-decoration: none;
 }
+
+@keyframes point-down{
+  from{
+    padding-top:30px;
+  }
+
+  to{
+    padding-top: 50px;
+  }
+}

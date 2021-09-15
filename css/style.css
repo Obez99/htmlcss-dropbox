@@ -246,7 +246,11 @@ footer a{
 
 .fa-arrow-down{
   font-size: 50px;
-  padding: 30px 0;
+  padding-top: 30px;
+  animation-name: point-down;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 .fa-check{
