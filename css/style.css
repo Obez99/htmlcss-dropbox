@@ -239,11 +239,11 @@ header{
   transition: transform 0.7s;
 }
 
-.footer-list :first-child{
+.footer-list-content :first-child{
   padding-bottom: 20px;
 }
 
-.footer-list li{
+.footer-list-content li{
   padding-bottom: 10px;
   color:white;
 }
@@ -251,6 +251,10 @@ header{
 footer a{
   text-decoration: none;
   color:white;
+}
+
+footer hr{
+  margin-top: 100px;
 }
 
 .language-menu i, span{
@@ -387,10 +391,17 @@ footer a{
   position:relative;
 }
 
-.footer-list{
+.footer-list-content{
   float:left;
-  padding: 120px 0;
-  padding-right: 100px;
+  min-height: 60px;
+  padding: 0 50px;
+  padding-bottom: 0px;
+}
+
+.footer-list-row{
+  margin: 0 -50px;
+  padding-top: 120px;
+  clear: left;
 }
 
 .language-menu{
