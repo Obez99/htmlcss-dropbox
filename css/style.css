@@ -109,8 +109,8 @@ header{
 }
 
 .business-plan-container.col-3-9{
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .business-plan-container.col-3-9 .business-plan-content{
@@ -300,8 +300,8 @@ footer hr{
 }
 
 .responsive-fix{
-  margin-left: -40px;
-  margin-right: -40px
+  margin-left: -20px;
+  margin-right: -20px
 }
 
 .business-plan-content{
